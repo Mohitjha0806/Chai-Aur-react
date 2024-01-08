@@ -1,10 +1,14 @@
-
+import Chai from "./chai.jsx"
 
 function App() {
 
   return (
-    <h1>Chai Aur Code || with Vite</h1>
-  )
+    <>                        //<></> that called Fregment Tag 
+<Chai/>
+<h1>Hy my name is mohit jha </h1>
+</>
+)
+
 }
 
 export default App
