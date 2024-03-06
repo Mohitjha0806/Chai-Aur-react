@@ -1,19 +1,18 @@
-import Chai from "./chai.jsx";
+
+
+import Chai from "./chai"
+
 
 function App() {
-  const username = "chai aur code";
+  const username = "chai aur code"
 
   return (
     <>
-      {/* //<></> that called Fregment Tag   */}
-      <Chai />
-      <h1>Hy my name is mohit jha ready hai {username} </h1>
-
-      {/* return ke ander evalueated expression hi likhte hai kisi bhi type ki condition match nhi karte hai vo sab return ke user ya functio ke uper  */}
-
-      <p>Test Para</p>
-    </>
-  );
+    <Chai/>
+    <h1>chai aur react {username}</h1>
+    <p>test para</p>
+   </>
+  )
 }
 
-export default App;
+export default App

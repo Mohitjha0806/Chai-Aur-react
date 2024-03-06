@@ -1,36 +1,42 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 
-function MyApp(){
-    return(
-        <div>
-            <h1>Custom App !</h1>
-        </div>
-    )
-}
+// import App from './App.jsx'
+
+// function MyApp(){
+//     return (
+//         <div>
+//             <h1>Custom App | chai</h1>
+//         </div>
+//     )
+// }
 
 // const ReactElement = {
-//     type: "a",
+//     type: 'a',
 //     props: {
-//       href: "https://google.com",
-//       target: "_blank",
+//         href: 'https://google.com',
+//         target: '_blank'
 //     },
-//     children: "Click me to visit Google",
-//   };
+//     children: 'Click me to visit google'
+// }
 
-  const anotherEliment = (
-    <a href="https://google.com" target='_blank'>Visit Google</a>
-  )
+const anotherElement = (
+    <link href="https://google.com" target='_blank'>Visit google</link>
+)
 
-  const anotherUser = "chai aur rect"
 
-  const reactElement = React.createElement(
-    'a', 
-    {href: 'https://google.com', target:'_blank'},'Click me to visit google',
-    anotherUser
-  )
+
+// const anotherUser = "chai aur react"
+
+const reactElement = React.createElement(
+    'a',
+    {href: 'https://google.com',target: '_blank' },
+    'click me to visit google',
+    anotherElement
+)
 
 ReactDOM.createRoot(document.getElementById('root')).render(
+ 
     reactElement
+  
 )
