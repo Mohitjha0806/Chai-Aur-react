@@ -21,7 +21,7 @@ import ReactDOM from 'react-dom/client'
 // }
 
 const anotherElement = (
-    <link href="https://google.com" target='_blank'>Visit google</link>
+    <a href="https://google.com" target='_blank' rel="noreferrer">Visit google</a>
 )
 
 
