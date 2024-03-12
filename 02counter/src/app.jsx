@@ -12,9 +12,11 @@ export function App() {
   };
 
   const removeValue = () => {
-    console.log("clicked", counter);
-    setCounter(counter - 1);
+    if (counter > 0) {
+      setCounter (counter - 1)
+    }
   };
+
   return (
     <>
       <h1>Chai aur React</h1>
