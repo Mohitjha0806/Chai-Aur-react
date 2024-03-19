@@ -14,8 +14,16 @@ function App() {
     <>
       <h1 className="bg-green-400 p-4 rounded-xl mb-4">tailwint test</h1>
       {/* <Card channel="chaiaurcode" someObj={myObj} someArr={newArr} /> */}
-      <Card username="Jha"/>
-      <Card username="Mohit Jha"/>
+      <Card
+        username="Jha"
+        btnText="Click Me"
+        paragraph="“Count your life by smiles, not tears. Count your age by friends, not years. Happy birthday!”"
+      />
+      <Card
+        username="Mohit Jha"
+        btnText="Visit Me"
+        paragraph="“Happy birthday! I hope all your birthday wishes and dreams come true.”"
+      />
     </>
   );
 }
