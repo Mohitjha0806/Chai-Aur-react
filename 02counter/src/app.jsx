@@ -9,11 +9,25 @@ export function App() {
   const addValue = () => {
     // counter = counter + 1
     setCounter(counter + 1);
+    setCounter(counter + 1);
+    setCounter(counter + 1);
+
+    isme ☝️ ye code baar baar likhni par bhi same ek baar hi kam karega code agar value change karni hai toh last result ko leke + 1 karn ahai hai jo neeche  bataya hai 
+
+
+    setCounter((prevCounter) => prevCounter + 1);
+    setCounter((prevCounter) => prevCounter + 1);
+    setCounter((prevCounter) => prevCounter + 1);
+    setCounter((prevCounter) => prevCounter + 1);
+    setCounter((prevCounter) => prevCounter + 1);
+
+    // 
+  
   };
 
   const removeValue = () => {
     if (counter > 0) {
-      setCounter (counter - 1)
+      setCounter(counter - 1);
     }
   };
 
