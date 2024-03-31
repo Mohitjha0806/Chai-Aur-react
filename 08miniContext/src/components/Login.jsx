@@ -13,16 +13,19 @@ function Login() {
   };
 
   return (
-    <div>
+    <div className="">
       <h2>Login</h2>
       <input
         type="text"
+        className="p-2 border-spacing-1 rounded m-2 hover:border-white"
         value={username}
         onChange={(e) => setUsername(e.target.value)}
         placeholder="username"
       />
+      
       <input
         type="text"
+        className="p-2 border-spacing-1 m-2 rounded"
         value={password}
         onChange={(e) => setPassword(e.target.value)}
         placeholder="password"
